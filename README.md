@@ -1,2 +1,2 @@
-# NTI-Summer-training-day2
-NTI Summer training day2 tasks
+# NTI-MEAN-Stack-day2
+NTI MEAN Stack Summer training day2 tasks
