@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Event Object</title></head>
+<body>
+  <input type="text" onkeydown="checkKey(event)" placeholder="Press a key">
+  <script>
+    function checkKey(e) {
+      alert(`Key: ${e.key}, ASCII: ${e.keyCode}`);
+      if (e.ctrlKey) alert("Ctrl key is pressed");
+      if (e.altKey) alert("Alt key is pressed");
+      if (e.shiftKey) alert("Shift key is pressed");
+    }
+  </script>
+</body>
+</html>

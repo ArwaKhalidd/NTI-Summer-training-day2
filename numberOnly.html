@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Number Only Input</title></head>
+<body>
+  <input type="text" onkeypress="allowNumbersOnly(event)" placeholder="Numbers only">
+  <script>
+    function allowNumbersOnly(e) {
+      const charCode = e.charCode;
+      if (charCode < 48 || charCode > 57) {
+        e.preventDefault();
+      }
+    }
+  </script>
+</body>
+</html>
